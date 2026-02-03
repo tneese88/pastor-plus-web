@@ -1,0 +1,13 @@
+{
+  "name": "pastor-plus-web",
+  "version": "1.0.0",
+  "description": "Pastor Plus website",
+  "scripts": {
+    "build": "hugo"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.32",
+    "postcss-cli": "^10.1.0",
+    "autoprefixer": "^10.4.16"
+  }
+}

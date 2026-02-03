@@ -1,59 +1,16 @@
-# pastor-plus-web
-
-This repository contains the Hugo source for the Pastor Plus website, deployed to GitHub Pages.
-
-## Quick Start (Local Development)
-
-### Prerequisites
-- [Hugo](https://gohugo.io/installation/) (latest version recommended)
-
-### Build & Serve Locally
-```bash
-# Clone the repository
-git clone https://github.com/tneese88/pastor-plus-web.git
-cd pastor-plus-web
-
-# Serve locally (watches for changes)
-hugo server
-
-# Build for production
-hugo
-```
-
-The site will be available at `http://localhost:1313` in development mode.
-
-## Deployment
-
-The site is automatically deployed to GitHub Pages via GitHub Actions on every push to `main`. The workflow:
-1. Builds the Hugo site
-2. Deploys to the `gh-pages` branch
-3. GitHub Pages serves the site at `https://tneese88.github.io/pastor-plus-web/`
-
-To change the `baseURL`, edit `config.toml` and update the `baseURL` parameter.
-
-## Site Content
-
-The main homepage content is located in `content/_index.md`. The site uses a minimal custom theme with no external dependencies.
-
-### Customization
-
-- **Logo**: Update the logo at `static/images/pastorpluslogo.png`
-- **Colors & Styling**: Edit `themes/pastor-plus-minimal/static/css/style.css`
-- **Layout**: Modify templates in `themes/pastor-plus-minimal/layouts/`
-
+---
+title: "Pastor Plus"
+description: "Strengthening pastors through sound theological resources."
 ---
 
-# Pastor Plus  
-**Strengthening pastors through sound theological resources.**
-
-Pastor Plus is a program that connects supporters in the United States with pastors and potential ministry workers in **Poland** who need access to trustworthy theological training resources. Through a simple monthly partnership, you help place doctrinally solid books directly into the hands of those charged with preaching the Word and shepherding Christ’s church.
+Pastor Plus is a program that connects supporters in the United States with pastors and potential ministry workers in **Poland** who need access to trustworthy theological training resources. Through a simple monthly partnership, you help place doctrinally solid books directly into the hands of those charged with preaching the Word and shepherding Christ's church.
 
 ---
 
 ## How It Works
 
 1. **You give monthly** ($30 or $40).  
-2. **We translate, print, and ship** carefully selected theological books into the pastor’s own language.  
+2. **We translate, print, and ship** carefully selected theological books into the pastor's own language.  
 3. **Pastors provide simple accountability** by writing **four sentences each month** on how the book has helped their ministry.
 
 This program is intended for **pastors and potential ministry workers** not for general distribution.
@@ -84,7 +41,7 @@ Pastor Plus supplies pastors with trusted, doctrinally solid resources that stre
 - **Concise Theology — J. I. Packer**  
 - **The Mortification of Sin — John Owen**  
 - **What Is Reformed Theology? — R. C. Sproul**  
-- **Understanding the Lord’s Supper — Bobby Jamieson**  
+- **Understanding the Lord's Supper — Bobby Jamieson**  
 - **Nine Marks of a Healthy Church — Mark Dever**  
 - **Understanding Church Discipline — Jonathan Leeman**  
 - **Understanding Church Leadership — Mark Dever**  
@@ -111,7 +68,7 @@ If you would like to fund the theological education of a pastor in **Poland**, c
 - **$30/month** — provides a pastor with a translated book each month  
 - **$40/month** — provides a pastor with a translated book each month *and* provides his wife a book every three months
 
-> **
+[Give Now](https://disciplethenations.givingfuel.com/pastor-plus)
 
 ---
 
@@ -121,5 +78,3 @@ Have questions about Pastor Plus, the books we use, or the pastors being served?
 
 - Email: **pastorplus@ewangeliawcentrum.pl**    
 - Organization: **Ewangelia W Centrum**
-
----

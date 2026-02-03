@@ -1,0 +1,19 @@
+baseURL = "https://tneese88.github.io/pastor-plus-web/"
+languageCode = "en-us"
+title = "Pastor Plus"
+theme = "pastor-plus-minimal"
+
+# Output formats
+[outputs]
+  home = ["HTML"]
+
+# Menu items
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+# Site parameters
+[params]
+  description = "Strengthening pastors through sound theological resources."
+  logo = "/pastor-plus-web/images/pastorpluslogoCropped.png"

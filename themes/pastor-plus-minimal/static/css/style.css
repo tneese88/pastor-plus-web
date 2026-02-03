@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #1a5490;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+
+header .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+header .logo {
+  height: 140px;
+  width: auto;
+}
+
+header .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  color: #e0e8f0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+header .give-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  white-space: nowrap;
+}
+
+header .give-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  padding: 20px 0;
+}
+
+.content {
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.content h2 {
+  font-size: 1.8rem;
+  margin: 30px 0 15px;
+  color: #1a5490;
+}
+
+.content h3 {
+  font-size: 1.3rem;
+  margin: 25px 0 12px;
+  color: #2a6db8;
+}
+
+.content p {
+  margin: 15px 0;
+}
+
+.content ul,
+.content ol {
+  margin: 15px 0 15px 40px;
+}
+
+.content li {
+  margin: 8px 0;
+}
+
+.content strong {
+  font-weight: 600;
+  color: #1a5490;
+}
+
+.content em {
+  font-style: italic;
+  color: #555;
+}
+
+.content hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+}
+
+/* Style Give Now button in Get Involved section */
+.content a[href="https://disciplethenations.givingfuel.com/pastor-plus"] {
+  display: inline-block;
+  background: linear-gradient(135deg, #1a5490 0%, #134080 100%) !important;
+  color: white !important;
+  padding: 18px 48px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  margin-bottom: 0;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(26, 84, 144, 0.25);
+  text-align: center;
+}
+
+.content a[href="https://disciplethenations.givingfuel.com/pastor-plus"]:hover {
+  background: linear-gradient(135deg, #134080 0%, #0d2a52 100%) !important;
+  box-shadow: 0 6px 20px rgba(26, 84, 144, 0.4);
+  transform: translateY(-2px);
+}
+  border-color: #1a5490;
+  box-shadow: 0 4px 8px rgba(26, 84, 144, 0.3);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header .logo-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    height: 50px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content h3 {
+    font-size: 1.1rem;
+  }
+}
