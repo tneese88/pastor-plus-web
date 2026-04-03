@@ -1,7 +1,7 @@
 {
   "name": "pastor-plus-web",
   "version": "1.0.0",
-  "description": "Pastor Plus website",
+  "description": "Pastor Plus Web Site",
   "scripts": {
     "build": "hugo"
   },
