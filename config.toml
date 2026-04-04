@@ -16,4 +16,4 @@ theme = "pastor-plus-minimal"
 # Site parameters
 [params]
   description = "Strengthening pastors through sound theological resources."
-  logo = "/pastor-plus-web/images/pastorpluslogoCropped.png"
+  logo = "/images/pastorpluslogoCropped.png"
